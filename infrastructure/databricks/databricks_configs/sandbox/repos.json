@@ -1,13 +1,13 @@
 {
   "Git_Configuration": [
     {
-      "git_username": null,
+      "git_username": "DSpeedyMS",
       "git_provider": "gitHub"
     }
   ],
   "Repo_Configuration": [
     {
-      "url": null,
+      "url": "https://github.com/DSpeedyMS/dstoolkit-mlops-databricks",
       "provider": "gitHub",
       "path": "Sandbox",
       "branch": "main"
