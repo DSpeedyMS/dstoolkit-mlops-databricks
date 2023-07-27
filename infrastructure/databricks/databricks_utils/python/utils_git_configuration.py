@@ -48,12 +48,12 @@ if __name__ == "__main__":
     gitConfigs = json['Git_Configuration']
     print(gitConfigs)
 
-    #print(os.environ['WORKSPACE_ID'])
-    #print(os.environ['DATABRICKS_INSTANCE'])
-    #print(os.environ['DATABRICKS_AAD_TOKEN'])
-    #print(os.environ['DATABRICKS_MANAGEMENT_TOKEN'])
-    #print(os.environ['PAT_GITHUB'])
-    #print(os.environ['ENVIRONMENT'])
+    print(os.environ['WORKSPACE_ID'])
+    print(os.environ['DATABRICKS_INSTANCE'])
+    print(os.environ['DATABRICKS_AAD_TOKEN'])
+    print(os.environ['DATABRICKS_MANAGEMENT_TOKEN'])
+    print(os.environ['PAT_GITHUB'])
+    print(os.environ['ENVIRONMENT'])
     for gitConfig in gitConfigs:
         response = configureGit(gitConfig=gitConfig, 
                                 workspaceId=os.environ['WORKSPACE_ID'], 
